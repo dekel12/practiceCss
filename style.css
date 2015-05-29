@@ -1,0 +1,38 @@
+
+.header {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+
+.header div {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logo {
+    margin-right: 10px;
+}
+
+.circle div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    background: #000;
+    display: inline-block;
+}
+
+#content div{
+    display: inline-block;
+}
+
+.light{
+    color:darkgray;
+}
