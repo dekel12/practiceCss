@@ -1,37 +1,44 @@
+<!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
 <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
-
-    <div class="header">
-        <a><div id="logo">Dekel Adler</div></a>
-        <a><div>about me</div></a>
-        <a><div>portfolio</div></a>
-        <a><div>projects</div></a>
-        <a><div>blog</div></a>
-        <a><div>contact me</div></a>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<div class="container-fluid">
+    <div class="header row">
+        <a><div id="logo"  class="col-md-1">Dekel Adler</div></a>
+        <a><div  class="col-md-1">about me</div></a>
+        <a><div  class="col-md-1">portfolio</div></a>
+        <a><div  class="col-md-1">projects</div></a>
+        <a><div  class="col-md-1">blog</div></a>
+        <a><div  class="col-md-1">contact me</div></a>
     </div>
     <div>
         <h1>Wow, a whole copied page from a photo Tal sent me!</h1>
     </div>
-    <div id="content">
-        <div>
+    <div id="content row">
+        <div class="col-md-4">
             <img src="http://fc02.deviantart.net/fs71/f/2010/190/0/e/Smiling_Rei_Ayanami_by_lionheart088.jpg">
         </div>
-        <div>
+        <div class="col-md-4">
             <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="circle">
-                <div>
+            <div class="circle row">
+                <div class="col-md-1">
                     facebook
                 </div>
-                <div>
+                <div class="col-md-1">
                     twitter
                 </div>
-                <div>
+                <div class="col-md-1">
                     youtube
                 </div>
             </div>
         </div>
 
     </div>
+</div>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>

@@ -1,20 +1,11 @@
 
 .header {
-    display: block;
     background-color: black;
-    color: white;
-    padding: 10px;
 
 }
 
-.header div {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#logo {
-    margin-right: 10px;
+.header a div{
+    color:white;
 }
 
 .circle div {
@@ -26,11 +17,6 @@
     line-height: 100px;
     text-align: center;
     background: #000;
-    display: inline-block;
-}
-
-#content div{
-    display: inline-block;
 }
 
 .light{

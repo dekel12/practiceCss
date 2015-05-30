@@ -1,0 +1,13 @@
+{
+  "name": "practiceCss",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dekel12/practiceCss",
+  "main": "index.html",
+  "authors": [
+    "dekel12"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
